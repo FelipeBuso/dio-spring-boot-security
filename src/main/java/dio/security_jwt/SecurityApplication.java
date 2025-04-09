@@ -1,13 +1,13 @@
-package dio.spring_security;
+package dio.security_jwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class SecurityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(SecurityApplication.class, args);
 	}
 
 }
